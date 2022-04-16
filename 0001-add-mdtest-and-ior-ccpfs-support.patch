@@ -1,0 +1,398 @@
+From 9f631fe4caf6de902fc1fe1d39659dedc1972508 Mon Sep 17 00:00:00 2001
+From: root <root@root>
+Date: Mon, 22 Jun 2020 11:06:48 +0800
+Subject: [PATCH] add mdtest and ior ccpfs support
+
+---
+ configure.ac      |  11 ++
+ mk.sh             |   6 ++
+ src/Makefile.am   |   7 ++
+ src/aiori-ccpfs.c | 295 ++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ src/aiori.c       |   3 +
+ src/aiori.h       |   1 +
+ 6 files changed, 323 insertions(+)
+ create mode 100644 mk.sh
+ create mode 100644 src/aiori-ccpfs.c
+
+diff --git a/configure.ac b/configure.ac
+index cc7ddba..54ea04d 100755
+--- a/configure.ac
++++ b/configure.ac
+@@ -116,6 +116,17 @@ AM_COND_IF([USE_IME_AIORI],[
+         AC_DEFINE([USE_IME_AIORI], [], [Build IME backend AIORI])
+ ])
+ 
++# CCPFS support
++AC_ARG_WITH([ccpfs],
++        [AS_HELP_STRING([--with-ccpfs],
++           [support IO with ccpfs backend @<:@default=no@:>@])],
++        [],
++        [with_ccpfs=yes])
++AM_CONDITIONAL([USE_CCPFS_AIORI], [test x$with_ccpfs = xyes])
++AM_COND_IF([USE_CCPFS_AIORI],[
++        AC_DEFINE([USE_CCPFS_AIORI], [], [Build ccpfs backend AIORI])
++])
++
+ # HDF5 support
+ AC_ARG_WITH([hdf5],
+         [AS_HELP_STRING([--with-hdf5],
+diff --git a/mk.sh b/mk.sh
+new file mode 100644
+index 0000000..b6e79e2
+--- /dev/null
++++ b/mk.sh
+@@ -0,0 +1,6 @@
++export MPI_C_LIBRARIES=/usr/lib64/openmpi3/lib
++export MPI_C_INCLUDE_PATH=/usr/include/openmpi3-x86_64/
++export PATH=/usr/lib64/openmpi3/bin:$PATH
++./bootstrap
++./configure
++make -j32
+diff --git a/src/Makefile.am b/src/Makefile.am
+index 1c37a6e..87f435c 100755
+--- a/src/Makefile.am
++++ b/src/Makefile.am
+@@ -48,6 +48,13 @@ extraLDFLAGS  += -L/opt/ddn/ime/lib
+ extraLDADD    += -lim_client
+ endif
+ 
++if USE_CCPFS_AIORI
++extraSOURCES  += aiori-ccpfs.c
++extraCPPFLAGS += -I/home/ccpfs/install/include
++extraLDFLAGS  += -L/home/ccpfs/install/lib -Wl,-rpath=/home/ccpfs/install/lib
++extraLDADD    += -lccpfs -lgurt -lstdc++
++endif
++
+ if USE_MPIIO_AIORI
+ extraSOURCES += aiori-MPIIO.c
+ endif
+diff --git a/src/aiori-ccpfs.c b/src/aiori-ccpfs.c
+new file mode 100644
+index 0000000..ed30ac4
+--- /dev/null
++++ b/src/aiori-ccpfs.c
+@@ -0,0 +1,295 @@
++/******************************************************************************\
++*
++* Implement abstract I/O interface for ccpfs.
++*
++\******************************************************************************/
++
++#ifdef HAVE_CONFIG_H
++#include "config.h"
++#endif
++
++#include <assert.h>
++#include <stdio.h>
++#include <stdlib.h>
++#include <sys/stat.h>
++#include <errno.h>                                  /* sys_errlist */
++#include <fcntl.h>                                  /* IO operations */
++#include <ccpfs-api.h>
++#include "ior.h"
++#include "iordef.h"
++#include "aiori.h"
++#include "utilities.h"
++
++/**************************** P R O T O T Y P E S *****************************/
++
++static void        *ccpfs_Create(char *, IOR_param_t *);
++static void        *ccpfs_Open(char *, IOR_param_t *);
++static void         ccpfs_Close(void *, IOR_param_t *);
++static void         ccpfs_Delete(char *, IOR_param_t *);
++static char        *ccpfs_GetVersion();
++static void         ccpfs_Fsync(void *, IOR_param_t *);
++static int          ccpfs_Access(const char *, int, IOR_param_t *);
++static IOR_offset_t ccpfs_GetFileSize(IOR_param_t *, MPI_Comm, char *);
++static IOR_offset_t ccpfs_Xfer(int, void *, IOR_size_t *,
++                             IOR_offset_t, IOR_param_t *);
++static int          ccpfs_StatFS(const char *, ior_aiori_statfs_t *,
++                               IOR_param_t *);
++static int          ccpfs_RmDir(const char *, IOR_param_t *);
++static int          ccpfs_MkDir(const char *, mode_t, IOR_param_t *);
++static int          ccpfs_Stat(const char *, struct stat *, IOR_param_t *);
++static option_help *ccpfs_options();
++
++static void         ccpfs_Initialize();
++static void         ccpfs_Finalize();
++
++
++/************************** O P T I O N S *****************************/
++struct ccpfs_option {
++        char *cfg_path;
++        char *data_path;
++        int master_count;
++        int work_count;
++};
++
++static struct ccpfs_option o = {
++        .cfg_path = "/home/ccpfs/install/ccpfs/cfg",
++        .data_path = "/home/ccpfs/install/ccpfs/data",
++        .master_count = 1,
++        .work_count = 1,
++};
++
++static option_help options [] = {
++      {0, "ccpfs.cfg_path", "ccpfs cfg_path", OPTION_OPTIONAL_ARGUMENT, 's', &o.cfg_path},
++      {0, "ccpfs.data_path", "ccpfs data_path", OPTION_OPTIONAL_ARGUMENT, 's', &o.data_path},
++      {0, "ccpfs.master_count", "ccpfs master_count", OPTION_OPTIONAL_ARGUMENT, 'd', &o.master_count},
++      {0, "ccpfs.work_count", "ccpfs work_count", OPTION_OPTIONAL_ARGUMENT, 'd', &o.work_count},
++      LAST_OPTION
++};
++
++/************************** D E C L A R A T I O N S ***************************/
++
++extern int      verbose;
++
++ior_aiori_t ccpfs_aiori = {
++        .name          = "CCPFS",
++        .name_legacy   = "CC",
++        .create        = ccpfs_Create,
++        .open          = ccpfs_Open,
++        .xfer          = ccpfs_Xfer,
++        .close         = ccpfs_Close,
++        .delete        = ccpfs_Delete,
++        .get_version   = ccpfs_GetVersion,
++        .fsync         = ccpfs_Fsync,
++        .get_file_size = ccpfs_GetFileSize,
++        .access        = ccpfs_Access,
++        .statfs        = ccpfs_StatFS,
++        .rmdir         = ccpfs_RmDir,
++        .mkdir         = ccpfs_MkDir,
++        .stat          = ccpfs_Stat,
++        .initialize    = ccpfs_Initialize,
++        .finalize      = ccpfs_Finalize,
++        .get_options   = ccpfs_options,
++        .enable_mdtest = true,
++};
++
++static option_help *ccpfs_options()
++{
++	return options;
++}
++
++/*
++ * Initialize ccpfs (MPI has been initialized before me)
++ */
++static void ccpfs_Initialize()
++{
++        int rc;
++
++	if (o.cfg_path == NULL || o.data_path == NULL ||
++	    o.master_count < 1 || o.work_count < 1) {
++		printf("wrong options\n");
++		return;
++        }
++
++	rc = ccpfs_init(0, NULL, o.cfg_path, o.data_path,
++			o.master_count, o.work_count, 0);
++	if (rc != 0) {
++		printf("ccpfs_init failed\n");
++		return;
++	}
++}
++
++/*
++ * Finlize ccpfs (before MPI is shutdown)
++ */
++static void ccpfs_Finalize()
++{
++        MPI_Barrier(MPI_COMM_WORLD);
++	ccpfs_fini();
++}
++
++static int ccpfs_Access(const char *path, int mode, IOR_param_t *param)
++{
++	return access(path, mode);
++}
++
++static void *ccpfs_Open(char *testFileName, IOR_param_t *param)
++{
++	uint64_t *fd;
++        int flags;
++	int rc;
++
++        if (param->openFlags & IOR_RDONLY)
++                flags |= O_RDONLY;
++        if (param->openFlags & IOR_WRONLY)
++                flags |= O_WRONLY;
++        if (param->openFlags & IOR_RDWR)
++                flags |= O_RDWR;
++        if (param->openFlags & IOR_APPEND)
++                flags |= O_APPEND;
++        if (param->openFlags & IOR_CREAT)
++                flags |= O_CREAT;
++        if (param->openFlags & IOR_EXCL)
++                flags |= O_EXCL;
++        if (param->openFlags & IOR_TRUNC)
++                flags |= O_TRUNC;
++
++	fd = (uint64_t *)malloc(sizeof(int));
++	if (fd == NULL)
++                ERR("Unable to malloc fid descriptor");
++
++        *fd = ccpfs_open(testFileName, flags, 0664);
++
++	return ((void *)fd);
++}
++
++static void *ccpfs_Create(char *testFileName, IOR_param_t *param)
++{
++        return ccpfs_Open(testFileName, param);
++}
++
++/*
++ * Write or read access to file using the ccpfs interface.
++ */
++static IOR_offset_t ccpfs_Xfer(int access, void *file, IOR_size_t *buffer,
++                               IOR_offset_t length, IOR_param_t *param)
++{
++        int xferRetries = 0;
++        uint64_t fd = *(uint64_t *)file;
++        long long rc;
++
++        if (access == WRITE) {
++                rc = ccpfs_pwrite(fd, (char*)buffer, length, param->offset);
++                if (param->fsyncPerWrite)
++                        ccpfs_Fsync(&fd, param);
++        } else {
++                rc = ccpfs_pread(fd, (char*)buffer, length, param->offset);
++        }
++
++        return length;
++}
++
++/*
++ * Perform fsync().
++ */
++static void ccpfs_Fsync(void *fd, IOR_param_t *param)
++{
++	ccpfs_fsync(*((int *)fd));
++}
++
++/*
++ * Close a file.
++ */
++static void ccpfs_Close(void *fd, IOR_param_t *param)
++{
++        ccpfs_close(*((int *)fd));
++	free(fd);
++}
++
++/*
++ * Delete a file through the ccpfs interface.
++ */
++static void ccpfs_Delete(char *testFileName, IOR_param_t *param)
++{
++        char errmsg[256];
++        sprintf(errmsg, "[RANK %03d]:cannot delete file %s\n",
++                rank, testFileName);
++        if (ccpfs_unlink(testFileName) != 0)
++		 WARN(errmsg);
++}
++
++/*
++ * Determine API version.
++ */
++static char *ccpfs_GetVersion()
++{
++
++        static char ver[1024] = {};
++
++        strcpy(ver, "not supported");
++        return ver;
++}
++
++static int ccpfs_StatFS(const char *path, ior_aiori_statfs_t *stat_buf,
++                      IOR_param_t *param)
++{
++	WARN("statfs is currently not supported in ccpfs backend!");
++        return -1;
++}
++
++
++static int ccpfs_MkDir(const char *path, mode_t mode, IOR_param_t *param)
++{
++        return mkdir(path, mode);
++}
++
++static int ccpfs_RmDir(const char *path, IOR_param_t *param)
++{
++        return rmdir(path);
++}
++
++/*
++ * Perform stat() through the ccpfs interface.
++ */
++static int ccpfs_Stat(const char *path, struct stat *buf, IOR_param_t *param)
++{
++        return ccpfs_stat(path, buf);
++}
++
++/*
++ * Use ccpfs stat() to return aggregate file size.
++ */
++static IOR_offset_t ccpfs_GetFileSize(IOR_param_t *test, MPI_Comm Comm,
++                                    char *testFileName)
++{
++        struct stat fstat;
++        IOR_offset_t fsize, tmpMin, tmpMax, tmpSum;
++
++        if (ccpfs_stat(testFileName, &fstat) !=0) {
++                ERR("cannot get status of written file"); 
++        }
++        fsize = fstat.st_size;
++
++        if (test->filePerProc) {
++                MPI_CHECK(MPI_Allreduce(&fsize, &tmpSum, 1,
++                                        MPI_LONG_LONG_INT, MPI_SUM, Comm),
++                          "cannot total data moved");
++                fsize = tmpSum;
++        } else {
++                MPI_CHECK(MPI_Allreduce(&fsize, &tmpMin, 1,
++                                        MPI_LONG_LONG_INT, MPI_MIN, Comm),
++                          "cannot total data moved");
++                MPI_CHECK(MPI_Allreduce(&fsize, &tmpMax, 1,
++                                        MPI_LONG_LONG_INT, MPI_MAX, Comm),
++                          "cannot total data moved");
++
++                if (tmpMin != tmpMax) {
++                        if (rank == 0) {
++                                WARN("inconsistent file size by different tasks");
++                        }
++                        /* incorrect, but now consistent across tasks */
++                        fsize = tmpMin;
++                }
++        }
++
++        return fsize;
++}
+diff --git a/src/aiori.c b/src/aiori.c
+index 71f99d1..255ff8e 100644
+--- a/src/aiori.c
++++ b/src/aiori.c
+@@ -56,6 +56,9 @@ ior_aiori_t *available_aiori[] = {
+ #ifdef USE_IME_AIORI
+         &ime_aiori,
+ #endif
++#ifdef USE_CCPFS_AIORI
++        &ccpfs_aiori,
++#endif
+ #ifdef USE_MPIIO_AIORI
+         &mpiio_aiori,
+ #endif
+diff --git a/src/aiori.h b/src/aiori.h
+index 4d416c2..a6b6d96 100755
+--- a/src/aiori.h
++++ b/src/aiori.h
+@@ -101,6 +101,7 @@ extern ior_aiori_t dfs_aiori;
+ extern ior_aiori_t hdf5_aiori;
+ extern ior_aiori_t hdfs_aiori;
+ extern ior_aiori_t ime_aiori;
++extern ior_aiori_t ccpfs_aiori;
+ extern ior_aiori_t mpiio_aiori;
+ extern ior_aiori_t ncmpi_aiori;
+ extern ior_aiori_t posix_aiori;
+-- 
+1.8.3.1
+
