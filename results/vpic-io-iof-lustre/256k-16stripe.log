@@ -1,0 +1,2980 @@
+Configuration file: /home/ccpfs/install/ccpfs/test/h5bench.cfg.256k
+Output data file: /mnt/ccpfs/ccpfs/test.h5
+
+================ Benchmark Configuration ==================
+File: /home/ccpfs/install/ccpfs/test/h5bench.cfg.256k
+Number of particles per rank: 65536
+Number of time steps: 128
+Emulated compute time per timestep: 0
+Mode: SYNC
+Collective metadata operations: NO
+Collective buffering for data operations: NO
+Number of dimensions: 1
+    Dim_1: 65536
+===========================================================
+
+Start benchmark: h5bench_write
+Number of particles per rank: 0 M
+rank 968 total number 83886080, offset 63438848
+rank 840 total number 83886080, offset 55050240
+rank 328 total number 83886080, offset 21495808
+rank 329 total number 83886080, offset 21561344
+rank 571 total number 83886080, offset 37421056
+rank 507 total number 83886080, offset 33226752
+rank 841 total number 83886080, offset 55115776
+rank 916 total number 83886080, offset 60030976
+rank 670 total number 83886080, offset 43909120
+rank 360 total number 83886080, offset 23592960
+rank 456 total number 83886080, offset 29884416
+rank 955 total number 83886080, offset 62586880
+rank 576 total number 83886080, offset 37748736
+rank 712 total number 83886080, offset 46661632
+rank 926 total number 83886080, offset 60686336
+rank 448 total number 83886080, offset 29360128
+rank 699 total number 83886080, offset 45809664
+rank 585 total number 83886080, offset 38338560
+rank 320 total number 83886080, offset 20971520
+rank 887 total number 83886080, offset 58130432
+rank 488 total number 83886080, offset 31981568
+rank 660 total number 83886080, offset 43253760
+rank 649 total number 83886080, offset 42532864
+rank 891 total number 83886080, offset 58392576
+rank 827 total number 83886080, offset 54198272
+rank 404 total number 83886080, offset 26476544
+rank 521 total number 83886080, offset 34144256
+rank 503 total number 83886080, offset 32964608
+rank 684 total number 83886080, offset 44826624
+rank 750 total number 83886080, offset 49152000
+rank 680 total number 83886080, offset 44564480
+rank 616 total number 83886080, offset 40370176
+rank 542 total number 83886080, offset 35520512
+rank 315 total number 83886080, offset 20643840
+rank 777 total number 83886080, offset 50921472
+rank 311 total number 83886080, offset 20381696
+rank 428 total number 83886080, offset 28049408
+rank 896 total number 83886080, offset 58720256
+rank 414 total number 83886080, offset 27131904
+rank 940 total number 83886080, offset 61603840
+rank 872 total number 83886080, offset 57147392
+rank 1006 total number 83886080, offset 65929216
+rank 528 total number 83886080, offset 34603008
+rank 1019 total number 83886080, offset 66781184
+rank 759 total number 83886080, offset 49741824
+rank 905 total number 83886080, offset 59310080
+rank 694 total number 83886080, offset 45481984
+rank 708 total number 83886080, offset 46399488
+rank 400 total number 83886080, offset 26214400
+rank 967 total number 83886080, offset 63373312
+rank 808 total number 83886080, offset 52953088
+rank 566 total number 83886080, offset 37093376
+rank 580 total number 83886080, offset 38010880
+rank 969 total number 83886080, offset 63504384
+rank 662 total number 83886080, offset 43384832
+rank 813 total number 83886080, offset 53280768
+rank 251 total number 83886080, offset 16449536
+rank 907 total number 83886080, offset 59441152
+rank 964 total number 83886080, offset 63176704
+rank 601 total number 83886080, offset 39387136
+rank 823 total number 83886080, offset 53936128
+rank 685 total number 83886080, offset 44892160
+rank 836 total number 83886080, offset 54788096
+rank 1004 total number 83886080, offset 65798144
+rank 123 total number 83886080, offset 8060928
+rank 990 total number 83886080, offset 64880640
+rank 760 total number 83886080, offset 49807360
+rank 837 total number 83886080, offset 54853632
+rank 296 total number 83886080, offset 19398656
+rank 375 total number 83886080, offset 24576000
+rank 622 total number 83886080, offset 40763392
+rank 635 total number 83886080, offset 41615360
+rank 457 total number 83886080, offset 29949952
+rank 478 total number 83886080, offset 31326208
+rank 631 total number 83886080, offset 41353216
+rank 310 total number 83886080, offset 20316160
+rank 429 total number 83886080, offset 28114944
+rank 748 total number 83886080, offset 49020928
+rank 656 total number 83886080, offset 42991616
+rank 494 total number 83886080, offset 32374784
+rank 393 total number 83886080, offset 25755648
+rank 860 total number 83886080, offset 56360960
+rank 952 total number 83886080, offset 62390272
+rank 286 total number 83886080, offset 18743296
+rank 688 total number 83886080, offset 45088768
+rank 379 total number 83886080, offset 24838144
+rank 839 total number 83886080, offset 54984704
+rank 265 total number 83886080, offset 17367040
+rank 534 total number 83886080, offset 34996224
+rank 264 total number 83886080, offset 17301504
+rank 948 total number 83886080, offset 62128128
+rank 640 total number 83886080, offset 41943040
+rank 327 total number 83886080, offset 21430272
+rank 568 total number 83886080, offset 37224448
+rank 726 total number 83886080, offset 47579136
+rank 820 total number 83886080, offset 53739520
+rank 409 total number 83886080, offset 26804224
+rank 822 total number 83886080, offset 53870592
+rank 492 total number 83886080, offset 32243712
+rank 581 total number 83886080, offset 38076416
+rank 973 total number 83886080, offset 63766528
+rank 325 total number 83886080, offset 21299200
+rank 651 total number 83886080, offset 42663936
+rank 1147 total number 83886080, offset 75169792
+rank 324 total number 83886080, offset 21233664
+rank 281 total number 83886080, offset 18415616
+rank 903 total number 83886080, offset 59179008
+rank 845 total number 83886080, offset 55377920
+rank 276 total number 83886080, offset 18087936
+rank 278 total number 83886080, offset 18219008
+rank 604 total number 83886080, offset 39583744
+rank 443 total number 83886080, offset 29032448
+rank 350 total number 83886080, offset 22937600
+rank 1000 total number 83886080, offset 65536000
+rank 696 total number 83886080, offset 45613056
+rank 455 total number 83886080, offset 29818880
+rank 301 total number 83886080, offset 19726336
+rank 384 total number 83886080, offset 25165824
+rank 862 total number 83886080, offset 56492032
+rank 452 total number 83886080, offset 29622272
+rank 1275 total number 83886080, offset 83558400
+rank 537 total number 83886080, offset 35192832
+rank 798 total number 83886080, offset 52297728
+rank 547 total number 83886080, offset 35848192
+rank 927 total number 83886080, offset 60751872
+rank 711 total number 83886080, offset 46596096
+rank 470 total number 83886080, offset 30801920
+rank 291 total number 83886080, offset 19070976
+rank 589 total number 83886080, offset 38600704
+rank 348 total number 83886080, offset 22806528
+rank 803 total number 83886080, offset 52625408
+rank 976 total number 83886080, offset 63963136
+rank 734 total number 83886080, offset 48103424
+rank 73 total number 83886080, offset 4784128
+rank 1020 total number 83886080, offset 66846720
+rank 552 total number 83886080, offset 36175872
+rank 366 total number 83886080, offset 23986176
+rank 768 total number 83886080, offset 50331648
+rank 557 total number 83886080, offset 36503552
+rank 779 total number 83886080, offset 51052544
+rank 519 total number 83886080, offset 34013184
+rank 985 total number 83886080, offset 64552960
+rank 374 total number 83886080, offset 24510464
+rank 424 total number 83886080, offset 27787264
+rank 788 total number 83886080, offset 51642368
+rank 960 total number 83886080, offset 62914560
+rank 567 total number 83886080, offset 37158912
+rank 888 total number 83886080, offset 58195968
+rank 406 total number 83886080, offset 26607616
+rank 740 total number 83886080, offset 48496640
+rank 489 total number 83886080, offset 32047104
+rank 982 total number 83886080, offset 64356352
+rank 732 total number 83886080, offset 47972352
+rank 901 total number 83886080, offset 59047936
+rank 499 total number 83886080, offset 32702464
+rank 802 total number 83886080, offset 52559872
+rank 333 total number 83886080, offset 21823488
+rank 965 total number 83886080, offset 63242240
+rank 411 total number 83886080, offset 26935296
+rank 267 total number 83886080, offset 17498112
+rank 564 total number 83886080, offset 36962304
+rank 361 total number 83886080, offset 23658496
+rank 583 total number 83886080, offset 38207488
+rank 415 total number 83886080, offset 27197440
+rank 605 total number 83886080, offset 39649280
+rank 436 total number 83886080, offset 28573696
+rank 438 total number 83886080, offset 28704768
+rank 497 total number 83886080, offset 32571392
+rank 764 total number 83886080, offset 50069504
+rank 523 total number 83886080, offset 34275328
+rank 270 total number 83886080, offset 17694720
+rank 440 total number 83886080, offset 28835840
+rank 517 total number 83886080, offset 33882112
+rank 936 total number 83886080, offset 61341696
+rank 369 total number 83886080, offset 24182784
+rank 775 total number 83886080, offset 50790400
+rank 463 total number 83886080, offset 30343168
+rank 461 total number 83886080, offset 30212096
+rank 464 total number 83886080, offset 30408704
+rank 476 total number 83886080, offset 31195136
+rank 702 total number 83886080, offset 46006272
+rank 532 total number 83886080, offset 34865152
+rank 395 total number 83886080, offset 25886720
+rank 290 total number 83886080, offset 19005440
+rank 857 total number 83886080, offset 56164352
+rank 878 total number 83886080, offset 57540608
+rank 591 total number 83886080, offset 38731776
+rank 627 total number 83886080, offset 41091072
+rank 287 total number 83886080, offset 18808832
+rank 546 total number 83886080, offset 35782656
+rank 391 total number 83886080, offset 25624576
+rank 790 total number 83886080, offset 51773440
+rank 371 total number 83886080, offset 24313856
+rank 453 total number 83886080, offset 29687808
+rank 349 total number 83886080, offset 22872064
+rank 508 total number 83886080, offset 33292288
+rank 883 total number 83886080, offset 57868288
+rank 816 total number 83886080, offset 53477376
+rank 574 total number 83886080, offset 37617664
+rank 313 total number 83886080, offset 20512768
+rank 300 total number 83886080, offset 19660800
+rank 632 total number 83886080, offset 41418752
+rank 446 total number 83886080, offset 29229056
+rank 848 total number 83886080, offset 55574528
+rank 319 total number 83886080, offset 20905984
+rank 755 total number 83886080, offset 49479680
+rank 717 total number 83886080, offset 46989312
+rank 619 total number 83886080, offset 40566784
+rank 1079 total number 83886080, offset 70713344
+rank 345 total number 83886080, offset 22609920
+rank 561 total number 83886080, offset 36765696
+rank 934 total number 83886080, offset 61210624
+rank 504 total number 83886080, offset 33030144
+rank 308 total number 83886080, offset 20185088
+rank 560 total number 83886080, offset 36700160
+rank 647 total number 83886080, offset 42401792
+rank 648 total number 83886080, offset 42467328
+rank 886 total number 83886080, offset 58064896
+rank 980 total number 83886080, offset 64225280
+rank 569 total number 83886080, offset 37289984
+rank 102 total number 83886080, offset 6684672
+rank 812 total number 83886080, offset 53215232
+rank 261 total number 83886080, offset 17104896
+rank 899 total number 83886080, offset 58916864
+rank 322 total number 83886080, offset 21102592
+rank 413 total number 83886080, offset 27066368
+rank 645 total number 83886080, offset 42270720
+rank 971 total number 83886080, offset 63635456
+rank 667 total number 83886080, offset 43712512
+rank 650 total number 83886080, offset 42598400
+rank 258 total number 83886080, offset 16908288
+rank 164 total number 83886080, offset 10747904
+rank 921 total number 83886080, offset 60358656
+rank 263 total number 83886080, offset 17235968
+rank 975 total number 83886080, offset 63897600
+rank 285 total number 83886080, offset 18677760
+rank 996 total number 83886080, offset 65273856
+rank 918 total number 83886080, offset 60162048
+rank 817 total number 83886080, offset 53542912
+rank 524 total number 83886080, offset 34340864
+rank 763 total number 83886080, offset 50003968
+rank 430 total number 83886080, offset 28180480
+rank 32 total number 83886080, offset 2097152
+rank 280 total number 83886080, offset 18350080
+rank 677 total number 83886080, offset 44367872
+rank 376 total number 83886080, offset 24641536
+rank 778 total number 83886080, offset 50987008
+rank 522 total number 83886080, offset 34209792
+rank 1009 total number 83886080, offset 66125824
+rank 1015 total number 83886080, offset 66519040
+rank 543 total number 83886080, offset 35586048
+rank 861 total number 83886080, offset 56426496
+rank 304 total number 83886080, offset 19922944
+rank 556 total number 83886080, offset 36438016
+rank 782 total number 83886080, offset 51249152
+rank 692 total number 83886080, offset 45350912
+rank 795 total number 83886080, offset 52101120
+rank 450 total number 83886080, offset 29491200
+rank 617 total number 83886080, offset 40435712
+rank 958 total number 83886080, offset 62783488
+rank 671 total number 83886080, offset 43974656
+rank 707 total number 83886080, offset 46333952
+rank 447 total number 83886080, offset 29294592
+rank 386 total number 83886080, offset 25296896
+rank 871 total number 83886080, offset 57081856
+rank 305 total number 83886080, offset 19988480
+rank 950 total number 83886080, offset 62259200
+rank 1011 total number 83886080, offset 66256896
+rank 773 total number 83886080, offset 50659328
+rank 989 total number 83886080, offset 64815104
+rank 988 total number 83886080, offset 64749568
+rank 643 total number 83886080, offset 42139648
+rank 336 total number 83886080, offset 22020096
+rank 334 total number 83886080, offset 21889024
+rank 473 total number 83886080, offset 30998528
+rank 380 total number 83886080, offset 24903680
+rank 392 total number 83886080, offset 25690112
+rank 526 total number 83886080, offset 34471936
+rank 288 total number 83886080, offset 18874368
+rank 799 total number 83886080, offset 52363264
+rank 275 total number 83886080, offset 18022400
+rank 317 total number 83886080, offset 20774912
+rank 709 total number 83886080, offset 46465024
+rank 266 total number 83886080, offset 17432576
+rank 539 total number 83886080, offset 35323904
+rank 999 total number 83886080, offset 65470464
+rank 665 total number 83886080, offset 43581440
+rank 881 total number 83886080, offset 57737216
+rank 834 total number 83886080, offset 54657024
+rank 294 total number 83886080, offset 19267584
+rank 584 total number 83886080, offset 38273024
+rank 468 total number 83886080, offset 30670848
+rank 720 total number 83886080, offset 47185920
+rank 807 total number 83886080, offset 52887552
+rank 728 total number 83886080, offset 47710208
+rank 806 total number 83886080, offset 52822016
+rank 340 total number 83886080, offset 22282240
+rank 729 total number 83886080, offset 47775744
+rank 182 total number 83886080, offset 11927552
+rank 892 total number 83886080, offset 58458112
+rank 421 total number 83886080, offset 27590656
+rank 259 total number 83886080, offset 16973824
+rank 642 total number 83886080, offset 42074112
+rank 513 total number 83886080, offset 33619968
+rank 733 total number 83886080, offset 48037888
+rank 805 total number 83886080, offset 52756480
+rank 731 total number 83886080, offset 47906816
+rank 987 total number 83886080, offset 64684032
+rank 330 total number 83886080, offset 21626880
+rank 578 total number 83886080, offset 37879808
+rank 484 total number 83886080, offset 31719424
+rank 1001 total number 83886080, offset 65601536
+rank 423 total number 83886080, offset 27721728
+rank 335 total number 83886080, offset 21954560
+rank 925 total number 83886080, offset 60620800
+rank 356 total number 83886080, offset 23330816
+rank 678 total number 83886080, offset 44433408
+rank 257 total number 83886080, offset 16842752
+rank 844 total number 83886080, offset 55312384
+rank 923 total number 83886080, offset 60489728
+rank 590 total number 83886080, offset 38666240
+rank 272 total number 83886080, offset 17825792
+rank 520 total number 83886080, offset 34078720
+rank 917 total number 83886080, offset 60096512
+rank 776 total number 83886080, offset 50855936
+rank 458 total number 83886080, offset 30015488
+rank 842 total number 83886080, offset 55181312
+rank 769 total number 83886080, offset 50397184
+rank 55 total number 83886080, offset 3604480
+rank 703 total number 83886080, offset 46071808
+rank 941 total number 83886080, offset 61669376
+rank 544 total number 83886080, offset 35651584
+rank 636 total number 83886080, offset 41680896
+rank 302 total number 83886080, offset 19791872
+rank 132 total number 83886080, offset 8650752
+rank 475 total number 83886080, offset 31129600
+rank 610 total number 83886080, offset 39976960
+rank 937 total number 83886080, offset 61407232
+rank 318 total number 83886080, offset 20840448
+rank 831 total number 83886080, offset 54460416
+rank 387 total number 83886080, offset 25362432
+rank 527 total number 83886080, offset 34537472
+rank 706 total number 83886080, offset 46268416
+rank 1031 total number 83886080, offset 67567616
+rank 625 total number 83886080, offset 40960000
+rank 630 total number 83886080, offset 41287680
+rank 771 total number 83886080, offset 50528256
+rank 293 total number 83886080, offset 19202048
+rank 669 total number 83886080, offset 43843584
+rank 588 total number 83886080, offset 38535168
+rank 963 total number 83886080, offset 63111168
+rank 256 total number 83886080, offset 16777216
+rank 654 total number 83886080, offset 42860544
+rank 713 total number 83886080, offset 46727168
+rank 394 total number 83886080, offset 25821184
+rank 460 total number 83886080, offset 30146560
+rank 792 total number 83886080, offset 51904512
+rank 606 total number 83886080, offset 39714816
+rank 1008 total number 83886080, offset 66060288
+rank 399 total number 83886080, offset 26148864
+rank 355 total number 83886080, offset 23265280
+rank 397 total number 83886080, offset 26017792
+rank 389 total number 83886080, offset 25493504
+rank 906 total number 83886080, offset 59375616
+rank 59 total number 83886080, offset 3866624
+rank 1159 total number 83886080, offset 75956224
+rank 745 total number 83886080, offset 48824320
+rank 641 total number 83886080, offset 42008576
+rank 354 total number 83886080, offset 23199744
+rank 774 total number 83886080, offset 50724864
+rank 744 total number 83886080, offset 48758784
+rank 868 total number 83886080, offset 56885248
+rank 800 total number 83886080, offset 52428800
+rank 7 total number 83886080, offset 458752
+rank 248 total number 83886080, offset 16252928
+rank 486 total number 83886080, offset 31850496
+rank 420 total number 83886080, offset 27525120
+rank 9 total number 83886080, offset 589824
+rank 262 total number 83886080, offset 17170432
+rank 652 total number 83886080, offset 42729472
+rank 341 total number 83886080, offset 22347776
+rank 339 total number 83886080, offset 22216704
+rank 962 total number 83886080, offset 63045632
+rank 753 total number 83886080, offset 49348608
+rank 493 total number 83886080, offset 32309248
+rank 405 total number 83886080, offset 26542080
+rank 811 total number 83886080, offset 53149696
+rank 107 total number 83886080, offset 7012352
+rank 970 total number 83886080, offset 63569920
+rank 898 total number 83886080, offset 58851328
+rank 644 total number 83886080, offset 42205184
+rank 441 total number 83886080, offset 28901376
+rank 743 total number 83886080, offset 48693248
+rank 575 total number 83886080, offset 37683200
+rank 1005 total number 83886080, offset 65863680
+rank 596 total number 83886080, offset 39059456
+rank 358 total number 83886080, offset 23461888
+rank 897 total number 83886080, offset 58785792
+rank 1244 total number 83886080, offset 81526784
+rank 43 total number 83886080, offset 2818048
+rank 110 total number 83886080, offset 7208960
+rank 432 total number 83886080, offset 28311552
+rank 600 total number 83886080, offset 39321600
+rank 277 total number 83886080, offset 18153472
+rank 1016 total number 83886080, offset 66584576
+rank 298 total number 83886080, offset 19529728
+rank 602 total number 83886080, offset 39452672
+rank 849 total number 83886080, offset 55640064
+rank 135 total number 83886080, offset 8847360
+rank 783 total number 83886080, offset 51314688
+rank 541 total number 83886080, offset 35454976
+rank 704 total number 83886080, offset 46137344
+rank 396 total number 83886080, offset 25952256
+rank 462 total number 83886080, offset 30277632
+rank 292 total number 83886080, offset 19136512
+rank 875 total number 83886080, offset 57344000
+rank 770 total number 83886080, offset 50462720
+rank 697 total number 83886080, offset 45678592
+rank 398 total number 83886080, offset 26083328
+rank 271 total number 83886080, offset 17760256
+rank 467 total number 83886080, offset 30605312
+rank 847 total number 83886080, offset 55508992
+rank 866 total number 83886080, offset 56754176
+rank 551 total number 83886080, offset 36110336
+rank 385 total number 83886080, offset 25231360
+rank 550 total number 83886080, offset 36044800
+rank 451 total number 83886080, offset 29556736
+rank 933 total number 83886080, offset 61145088
+rank 829 total number 83886080, offset 54329344
+rank 908 total number 83886080, offset 59506688
+rank 723 total number 83886080, offset 47382528
+rank 1056 total number 83886080, offset 69206016
+rank 814 total number 83886080, offset 53346304
+rank 793 total number 83886080, offset 51970048
+rank 474 total number 83886080, offset 31064064
+rank 780 total number 83886080, offset 51118080
+rank 472 total number 83886080, offset 30932992
+rank 686 total number 83886080, offset 44957696
+rank 368 total number 83886080, offset 24117248
+rank 719 total number 83886080, offset 47120384
+rank 435 total number 83886080, offset 28508160
+rank 477 total number 83886080, offset 31260672
+rank 549 total number 83886080, offset 35979264
+rank 586 total number 83886080, offset 38404096
+rank 459 total number 83886080, offset 30081024
+rank 679 total number 83886080, offset 44498944
+rank 825 total number 83886080, offset 54067200
+rank 721 total number 83886080, offset 47251456
+rank 514 total number 83886080, offset 33685504
+rank 614 total number 83886080, offset 40239104
+rank 904 total number 83886080, offset 59244544
+rank 388 total number 83886080, offset 25427968
+rank 880 total number 83886080, offset 57671680
+rank 407 total number 83886080, offset 26673152
+rank 88 total number 83886080, offset 5767168
+rank 1206 total number 83886080, offset 79036416
+rank 900 total number 83886080, offset 58982400
+rank 1049 total number 83886080, offset 68747264
+rank 342 total number 83886080, offset 22413312
+rank 972 total number 83886080, offset 63700992
+rank 661 total number 83886080, offset 43319296
+rank 979 total number 83886080, offset 64159744
+rank 482 total number 83886080, offset 31588352
+rank 193 total number 83886080, offset 12648448
+rank 893 total number 83886080, offset 58523648
+rank 485 total number 83886080, offset 31784960
+rank 1211 total number 83886080, offset 79364096
+rank 187 total number 83886080, offset 12255232
+rank 730 total number 83886080, offset 47841280
+rank 418 total number 83886080, offset 27394048
+rank 724 total number 83886080, offset 47448064
+rank 681 total number 83886080, offset 44630016
+rank 663 total number 83886080, offset 43450368
+rank 655 total number 83886080, offset 42926080
+rank 445 total number 83886080, offset 29163520
+rank 676 total number 83886080, offset 44302336
+rank 518 total number 83886080, offset 33947648
+rank 977 total number 83886080, offset 64028672
+rank 924 total number 83886080, offset 60555264
+rank 283 total number 83886080, offset 18546688
+rank 830 total number 83886080, offset 54394880
+rank 512 total number 83886080, offset 33554432
+rank 1080 total number 83886080, offset 70778880
+rank 597 total number 83886080, offset 39124992
+rank 856 total number 83886080, offset 56098816
+rank 538 total number 83886080, offset 35258368
+rank 682 total number 83886080, offset 44695552
+rank 929 total number 83886080, offset 60882944
+rank 935 total number 83886080, offset 61276160
+rank 863 total number 83886080, offset 56557568
+rank 621 total number 83886080, offset 40697856
+rank 784 total number 83886080, offset 51380224
+rank 716 total number 83886080, offset 46923776
+rank 942 total number 83886080, offset 61734912
+rank 372 total number 83886080, offset 24379392
+rank 715 total number 83886080, offset 46858240
+rank 1010 total number 83886080, offset 66191360
+rank 1017 total number 83886080, offset 66650112
+rank 558 total number 83886080, offset 36569088
+rank 911 total number 83886080, offset 59703296
+rank 787 total number 83886080, offset 51576832
+rank 1007 total number 83886080, offset 65994752
+rank 626 total number 83886080, offset 41025536
+rank 791 total number 83886080, offset 51838976
+rank 465 total number 83886080, offset 30474240
+rank 870 total number 83886080, offset 57016320
+rank 851 total number 83886080, offset 55771136
+rank 533 total number 83886080, offset 34930688
+rank 509 total number 83886080, offset 33357824
+rank 268 total number 83886080, offset 17563648
+rank 243 total number 83886080, offset 15925248
+rank 496 total number 83886080, offset 32505856
+rank 974 total number 83886080, offset 63832064
+rank 873 total number 83886080, offset 57212928
+rank 554 total number 83886080, offset 36306944
+rank 220 total number 83886080, offset 14417920
+rank 1272 total number 83886080, offset 83361792
+rank 846 total number 83886080, offset 55443456
+rank 1088 total number 83886080, offset 71303168
+rank 959 total number 83886080, offset 62849024
+rank 515 total number 83886080, offset 33751040
+rank 637 total number 83886080, offset 41746432
+rank 789 total number 83886080, offset 51707904
+rank 986 total number 83886080, offset 64618496
+rank 299 total number 83886080, offset 19595264
+rank 279 total number 83886080, offset 18284544
+rank 425 total number 83886080, offset 27852800
+rank 801 total number 83886080, offset 52494336
+rank 34 total number 83886080, offset 2228224
+rank 854 total number 83886080, offset 55967744
+rank 344 total number 83886080, offset 22544384
+rank 548 total number 83886080, offset 35913728
+rank 0 total number 83886080, offset 0
+Total number of particles: 80M
+rank 487 total number 83886080, offset 31916032
+rank 168 total number 83886080, offset 11010048
+rank 646 total number 83886080, offset 42336256
+rank 1220 total number 83886080, offset 79953920
+rank 889 total number 83886080, offset 58261504
+rank 422 total number 83886080, offset 27656192
+rank 332 total number 83886080, offset 21757952
+rank 741 total number 83886080, offset 48562176
+rank 99 total number 83886080, offset 6488064
+rank 882 total number 83886080, offset 57802752
+rank 273 total number 83886080, offset 17891328
+rank 573 total number 83886080, offset 37552128
+rank 725 total number 83886080, offset 47513600
+rank 331 total number 83886080, offset 21692416
+rank 587 total number 83886080, offset 38469632
+rank 410 total number 83886080, offset 26869760
+rank 498 total number 83886080, offset 32636928
+rank 804 total number 83886080, offset 52690944
+rank 761 total number 83886080, offset 49872896
+rank 183 total number 83886080, offset 11993088
+rank 495 total number 83886080, offset 32440320
+rank 765 total number 83886080, offset 50135040
+rank 196 total number 83886080, offset 12845056
+rank 598 total number 83886080, offset 39190528
+rank 337 total number 83886080, offset 22085632
+rank 284 total number 83886080, offset 18612224
+rank 363 total number 83886080, offset 23789568
+rank 910 total number 83886080, offset 59637760
+rank 592 total number 83886080, offset 38797312
+rank 1240 total number 83886080, offset 81264640
+rank 997 total number 83886080, offset 65339392
+rank 536 total number 83886080, offset 35127296
+rank 858 total number 83886080, offset 56229888
+rank 922 total number 83886080, offset 60424192
+rank 289 total number 83886080, offset 18939904
+rank 295 total number 83886080, offset 19333120
+rank 943 total number 83886080, offset 61800448
+rank 701 total number 83886080, offset 45940736
+rank 624 total number 83886080, offset 40894464
+rank 796 total number 83886080, offset 52166656
+rank 1022 total number 83886080, offset 66977792
+rank 612 total number 83886080, offset 40108032
+rank 555 total number 83886080, offset 36372480
+rank 210 total number 83886080, offset 13762560
+rank 1097 total number 83886080, offset 71892992
+rank 638 total number 83886080, offset 41811968
+rank 991 total number 83886080, offset 64946176
+rank 867 total number 83886080, offset 56819712
+rank 687 total number 83886080, offset 45023232
+rank 466 total number 83886080, offset 30539776
+rank 951 total number 83886080, offset 62324736
+rank 545 total number 83886080, offset 35717120
+rank 150 total number 83886080, offset 9830400
+rank 531 total number 83886080, offset 34799616
+rank 853 total number 83886080, offset 55902208
+rank 749 total number 83886080, offset 49086464
+rank 668 total number 83886080, offset 43778048
+rank 563 total number 83886080, offset 36896768
+rank 16 total number 83886080, offset 1048576
+rank 1134 total number 83886080, offset 74317824
+rank 953 total number 83886080, offset 62455808
+rank 634 total number 83886080, offset 41549824
+rank 540 total number 83886080, offset 35389440
+rank 1112 total number 83886080, offset 72876032
+rank 766 total number 83886080, offset 50200576
+rank 128 total number 83886080, offset 8388608
+rank 479 total number 83886080, offset 31391744
+rank 595 total number 83886080, offset 38993920
+rank 797 total number 83886080, offset 52232192
+rank 309 total number 83886080, offset 20250624
+rank 346 total number 83886080, offset 22675456
+rank 139 total number 83886080, offset 9109504
+rank 359 total number 83886080, offset 23527424
+rank 505 total number 83886080, offset 33095680
+rank 961 total number 83886080, offset 62980096
+rank 274 total number 83886080, offset 17956864
+rank 1014 total number 83886080, offset 66453504
+rank 984 total number 83886080, offset 64487424
+rank 1188 total number 83886080, offset 77856768
+rank 80 total number 83886080, offset 5242880
+rank 247 total number 83886080, offset 16187392
+rank 8 total number 83886080, offset 524288
+rank 1126 total number 83886080, offset 73793536
+rank 260 total number 83886080, offset 17039360
+rank 809 total number 83886080, offset 53018624
+rank 742 total number 83886080, offset 48627712
+rank 412 total number 83886080, offset 27000832
+rank 981 total number 83886080, offset 64290816
+rank 819 total number 83886080, offset 53673984
+rank 82 total number 83886080, offset 5373952
+rank 593 total number 83886080, offset 38862848
+rank 653 total number 83886080, offset 42795008
+rank 885 total number 83886080, offset 57999360
+rank 1131 total number 83886080, offset 74121216
+rank 1067 total number 83886080, offset 69926912
+rank 810 total number 83886080, offset 53084160
+rank 738 total number 83886080, offset 48365568
+rank 4 total number 83886080, offset 262144
+rank 201 total number 83886080, offset 13172736
+rank 983 total number 83886080, offset 64421888
+rank 735 total number 83886080, offset 48168960
+rank 365 total number 83886080, offset 23920640
+rank 516 total number 83886080, offset 33816576
+rank 758 total number 83886080, offset 49676288
+rank 417 total number 83886080, offset 27328512
+rank 364 total number 83886080, offset 23855104
+rank 843 total number 83886080, offset 55246848
+rank 510 total number 83886080, offset 33423360
+rank 752 total number 83886080, offset 49283072
+rank 200 total number 83886080, offset 13107200
+rank 357 total number 83886080, offset 23396352
+rank 56 total number 83886080, offset 3670016
+rank 938 total number 83886080, offset 61472768
+rank 282 total number 83886080, offset 18481152
+rank 449 total number 83886080, offset 29425664
+rank 535 total number 83886080, offset 35061760
+rank 223 total number 83886080, offset 14614528
+rank 1021 total number 83886080, offset 66912256
+rank 944 total number 83886080, offset 61865984
+rank 156 total number 83886080, offset 10223616
+rank 62 total number 83886080, offset 4063232
+rank 772 total number 83886080, offset 50593792
+rank 1035 total number 83886080, offset 67829760
+rank 370 total number 83886080, offset 24248320
+rank 137 total number 83886080, offset 8978432
+rank 718 total number 83886080, offset 47054848
+rank 351 total number 83886080, offset 23003136
+rank 947 total number 83886080, offset 62062592
+rank 367 total number 83886080, offset 24051712
+rank 946 total number 83886080, offset 61997056
+rank 1271 total number 83886080, offset 83296256
+rank 705 total number 83886080, offset 46202880
+rank 230 total number 83886080, offset 15073280
+rank 611 total number 83886080, offset 40042496
+rank 613 total number 83886080, offset 40173568
+rank 909 total number 83886080, offset 59572224
+rank 828 total number 83886080, offset 54263808
+rank 1123 total number 83886080, offset 73596928
+rank 1216 total number 83886080, offset 79691776
+rank 894 total number 83886080, offset 58589184
+rank 553 total number 83886080, offset 36241408
+rank 714 total number 83886080, offset 46792704
+rank 620 total number 83886080, offset 40632320
+rank 1192 total number 83886080, offset 78118912
+rank 1246 total number 83886080, offset 81657856
+rank 208 total number 83886080, offset 13631488
+rank 559 total number 83886080, offset 36634624
+rank 115 total number 83886080, offset 7536640
+rank 877 total number 83886080, offset 57475072
+rank 469 total number 83886080, offset 30736384
+rank 426 total number 83886080, offset 27918336
+rank 939 total number 83886080, offset 61538304
+rank 919 total number 83886080, offset 60227584
+rank 1225 total number 83886080, offset 80281600
+rank 321 total number 83886080, offset 21037056
+rank 434 total number 83886080, offset 28442624
+rank 1174 total number 83886080, offset 76939264
+rank 1224 total number 83886080, offset 80216064
+rank 1028 total number 83886080, offset 67371008
+rank 1040 total number 83886080, offset 68157440
+rank 727 total number 83886080, offset 47644672
+rank 1128 total number 83886080, offset 73924608
+rank 1046 total number 83886080, offset 68550656
+rank 1060 total number 83886080, offset 69468160
+rank 89 total number 83886080, offset 5832704
+rank 902 total number 83886080, offset 59113472
+rank 572 total number 83886080, offset 37486592
+rank 501 total number 83886080, offset 32833536
+rank 739 total number 83886080, offset 48431104
+rank 162 total number 83886080, offset 10616832
+rank 673 total number 83886080, offset 44105728
+rank 93 total number 83886080, offset 6094848
+rank 565 total number 83886080, offset 37027840
+rank 11 total number 83886080, offset 720896
+rank 427 total number 83886080, offset 27983872
+rank 890 total number 83886080, offset 58327040
+rank 818 total number 83886080, offset 53608448
+rank 244 total number 83886080, offset 15990784
+rank 1161 total number 83886080, offset 76087296
+rank 1143 total number 83886080, offset 74907648
+rank 815 total number 83886080, offset 53411840
+rank 525 total number 83886080, offset 34406400
+rank 36 total number 83886080, offset 2359296
+rank 998 total number 83886080, offset 65404928
+rank 657 total number 83886080, offset 43057152
+rank 444 total number 83886080, offset 29097984
+rank 1083 total number 83886080, offset 70975488
+rank 30 total number 83886080, offset 1966080
+rank 832 total number 83886080, offset 54525952
+rank 1160 total number 83886080, offset 76021760
+rank 437 total number 83886080, offset 28639232
+rank 216 total number 83886080, offset 14155776
+rank 378 total number 83886080, offset 24772608
+rank 442 total number 83886080, offset 28966912
+rank 529 total number 83886080, offset 34668544
+rank 615 total number 83886080, offset 40304640
+rank 303 total number 83886080, offset 19857408
+rank 381 total number 83886080, offset 24969216
+rank 64 total number 83886080, offset 4194304
+rank 236 total number 83886080, offset 15466496
+rank 222 total number 83886080, offset 14548992
+rank 852 total number 83886080, offset 55836672
+rank 1195 total number 83886080, offset 78315520
+rank 530 total number 83886080, offset 34734080
+rank 377 total number 83886080, offset 24707072
+rank 1118 total number 83886080, offset 73269248
+rank 431 total number 83886080, offset 28246016
+rank 1267 total number 83886080, offset 83034112
+rank 607 total number 83886080, offset 39780352
+rank 786 total number 83886080, offset 51511296
+rank 471 total number 83886080, offset 30867456
+rank 785 total number 83886080, offset 51445760
+rank 390 total number 83886080, offset 25559040
+rank 691 total number 83886080, offset 45285376
+rank 1013 total number 83886080, offset 66387968
+rank 269 total number 83886080, offset 17629184
+rank 28 total number 83886080, offset 1835008
+rank 3 total number 83886080, offset 196608
+rank 416 total number 83886080, offset 27262976
+rank 94 total number 83886080, offset 6160384
+rank 633 total number 83886080, offset 41484288
+rank 794 total number 83886080, offset 52035584
+rank 1180 total number 83886080, offset 77332480
+rank 232 total number 83886080, offset 15204352
+rank 1086 total number 83886080, offset 71172096
+rank 1168 total number 83886080, offset 76546048
+rank 879 total number 83886080, offset 57606144
+rank 195 total number 83886080, offset 12779520
+rank 957 total number 83886080, offset 62717952
+rank 629 total number 83886080, offset 41222144
+rank 666 total number 83886080, offset 43646976
+rank 859 total number 83886080, offset 56295424
+rank 119 total number 83886080, offset 7798784
+rank 25 total number 83886080, offset 1638400
+rank 401 total number 83886080, offset 26279936
+rank 594 total number 83886080, offset 38928384
+rank 1254 total number 83886080, offset 82182144
+rank 104 total number 83886080, offset 6815744
+rank 628 total number 83886080, offset 41156608
+rank 160 total number 83886080, offset 10485760
+rank 1207 total number 83886080, offset 79101952
+rank 408 total number 83886080, offset 26738688
+rank 966 total number 83886080, offset 63307776
+rank 500 total number 83886080, offset 32768000
+rank 169 total number 83886080, offset 11075584
+rank 22 total number 83886080, offset 1441792
+rank 1052 total number 83886080, offset 68943872
+rank 821 total number 83886080, offset 53805056
+rank 1139 total number 83886080, offset 74645504
+rank 402 total number 83886080, offset 26345472
+rank 833 total number 83886080, offset 54591488
+rank 1053 total number 83886080, offset 69009408
+rank 85 total number 83886080, offset 5570560
+rank 171 total number 83886080, offset 11206656
+rank 347 total number 83886080, offset 22740992
+rank 570 total number 83886080, offset 37355520
+rank 978 total number 83886080, offset 64094208
+rank 884 total number 83886080, offset 57933824
+rank 1081 total number 83886080, offset 70844416
+rank 343 total number 83886080, offset 22478848
+rank 95 total number 83886080, offset 6225920
+rank 205 total number 83886080, offset 13434880
+rank 1156 total number 83886080, offset 75759616
+rank 1238 total number 83886080, offset 81133568
+rank 1217 total number 83886080, offset 79757312
+rank 204 total number 83886080, offset 13369344
+rank 1163 total number 83886080, offset 76218368
+rank 1230 total number 83886080, offset 80609280
+rank 912 total number 83886080, offset 59768832
+rank 40 total number 83886080, offset 2621440
+rank 757 total number 83886080, offset 49610752
+rank 1096 total number 83886080, offset 71827456
+rank 1018 total number 83886080, offset 66715648
+rank 762 total number 83886080, offset 49938432
+rank 689 total number 83886080, offset 45154304
+rank 695 total number 83886080, offset 45547520
+rank 383 total number 83886080, offset 25100288
+rank 781 total number 83886080, offset 51183616
+rank 1024 total number 83886080, offset 67108864
+rank 316 total number 83886080, offset 20709376
+rank 382 total number 83886080, offset 25034752
+rank 932 total number 83886080, offset 61079552
+rank 235 total number 83886080, offset 15400960
+rank 690 total number 83886080, offset 45219840
+rank 217 total number 83886080, offset 14221312
+rank 1038 total number 83886080, offset 68026368
+rank 511 total number 83886080, offset 33488896
+rank 307 total number 83886080, offset 20119552
+rank 767 total number 83886080, offset 50266112
+rank 306 total number 83886080, offset 20054016
+rank 71 total number 83886080, offset 4653056
+rank 65 total number 83886080, offset 4259840
+rank 710 total number 83886080, offset 46530560
+rank 1251 total number 83886080, offset 81985536
+rank 373 total number 83886080, offset 24444928
+rank 29 total number 83886080, offset 1900544
+rank 1228 total number 83886080, offset 80478208
+rank 483 total number 83886080, offset 31653888
+rank 1136 total number 83886080, offset 74448896
+rank 1054 total number 83886080, offset 69074944
+rank 1033 total number 83886080, offset 67698688
+rank 74 total number 83886080, offset 4849664
+rank 700 total number 83886080, offset 45875200
+rank 1032 total number 83886080, offset 67633152
+rank 1166 total number 83886080, offset 76414976
+rank 928 total number 83886080, offset 60817408
+rank 159 total number 83886080, offset 10420224
+rank 675 total number 83886080, offset 44236800
+rank 77 total number 83886080, offset 5046272
+rank 869 total number 83886080, offset 56950784
+rank 26 total number 83886080, offset 1703936
+rank 1179 total number 83886080, offset 77266944
+rank 439 total number 83886080, offset 28770304
+rank 105 total number 83886080, offset 6881280
+rank 241 total number 83886080, offset 15794176
+rank 674 total number 83886080, offset 44171264
+rank 214 total number 83886080, offset 14024704
+rank 184 total number 83886080, offset 12058624
+rank 68 total number 83886080, offset 4456448
+rank 240 total number 83886080, offset 15728640
+rank 167 total number 83886080, offset 10944512
+rank 1208 total number 83886080, offset 79167488
+rank 326 total number 83886080, offset 21364736
+rank 1140 total number 83886080, offset 74711040
+rank 1129 total number 83886080, offset 73990144
+rank 502 total number 83886080, offset 32899072
+rank 12 total number 83886080, offset 786432
+rank 21 total number 83886080, offset 1376256
+rank 1219 total number 83886080, offset 79888384
+rank 562 total number 83886080, offset 36831232
+rank 913 total number 83886080, offset 59834368
+rank 173 total number 83886080, offset 11337728
+rank 1045 total number 83886080, offset 68485120
+rank 491 total number 83886080, offset 32178176
+rank 747 total number 83886080, offset 48955392
+rank 10 total number 83886080, offset 655360
+rank 98 total number 83886080, offset 6422528
+rank 1204 total number 83886080, offset 78905344
+rank 1241 total number 83886080, offset 81330176
+rank 1223 total number 83886080, offset 80150528
+rank 895 total number 83886080, offset 58654720
+rank 45 total number 83886080, offset 2949120
+rank 756 total number 83886080, offset 49545216
+rank 838 total number 83886080, offset 54919168
+rank 577 total number 83886080, offset 37814272
+rank 1164 total number 83886080, offset 76283904
+rank 603 total number 83886080, offset 39518208
+rank 1150 total number 83886080, offset 75366400
+rank 192 total number 83886080, offset 12582912
+rank 920 total number 83886080, offset 60293120
+rank 37 total number 83886080, offset 2424832
+rank 1256 total number 83886080, offset 82313216
+rank 698 total number 83886080, offset 45744128
+rank 1162 total number 83886080, offset 76152832
+rank 1089 total number 83886080, offset 71368704
+rank 855 total number 83886080, offset 56033280
+rank 623 total number 83886080, offset 40828928
+rank 1101 total number 83886080, offset 72155136
+rank 144 total number 83886080, offset 9437184
+rank 876 total number 83886080, offset 57409536
+rank 142 total number 83886080, offset 9306112
+rank 1012 total number 83886080, offset 66322432
+rank 155 total number 83886080, offset 10158080
+rank 850 total number 83886080, offset 55705600
+rank 297 total number 83886080, offset 19464192
+rank 158 total number 83886080, offset 10354688
+rank 751 total number 83886080, offset 49217536
+rank 1027 total number 83886080, offset 67305472
+rank 1247 total number 83886080, offset 81723392
+rank 146 total number 83886080, offset 9568256
+rank 1191 total number 83886080, offset 78053376
+rank 225 total number 83886080, offset 14745600
+rank 70 total number 83886080, offset 4587520
+rank 931 total number 83886080, offset 61014016
+rank 693 total number 83886080, offset 45416448
+rank 1069 total number 83886080, offset 70057984
+rank 108 total number 83886080, offset 7077888
+rank 83 total number 83886080, offset 5439488
+rank 176 total number 83886080, offset 11534336
+rank 14 total number 83886080, offset 917504
+rank 1113 total number 83886080, offset 72941568
+rank 234 total number 83886080, offset 15335424
+rank 1260 total number 83886080, offset 82575360
+rank 72 total number 83886080, offset 4718592
+rank 126 total number 83886080, offset 8257536
+rank 608 total number 83886080, offset 39845888
+rank 639 total number 83886080, offset 41877504
+rank 915 total number 83886080, offset 59965440
+rank 1117 total number 83886080, offset 73203712
+rank 949 total number 83886080, offset 62193664
+rank 186 total number 83886080, offset 12189696
+rank 1259 total number 83886080, offset 82509824
+rank 599 total number 83886080, offset 39256064
+rank 185 total number 83886080, offset 12124160
+rank 1041 total number 83886080, offset 68222976
+rank 754 total number 83886080, offset 49414144
+rank 454 total number 83886080, offset 29753344
+rank 664 total number 83886080, offset 43515904
+rank 1268 total number 83886080, offset 83099648
+rank 1200 total number 83886080, offset 78643200
+rank 1127 total number 83886080, offset 73859072
+rank 1048 total number 83886080, offset 68681728
+rank 6 total number 83886080, offset 393216
+rank 180 total number 83886080, offset 11796480
+rank 1209 total number 83886080, offset 79233024
+rank 582 total number 83886080, offset 38141952
+rank 92 total number 83886080, offset 6029312
+rank 1221 total number 83886080, offset 80019456
+rank 419 total number 83886080, offset 27459584
+rank 722 total number 83886080, offset 47316992
+rank 113 total number 83886080, offset 7405568
+rank 1213 total number 83886080, offset 79495168
+rank 165 total number 83886080, offset 10813440
+rank 1051 total number 83886080, offset 68878336
+rank 27 total number 83886080, offset 1769472
+rank 1210 total number 83886080, offset 79298560
+rank 338 total number 83886080, offset 22151168
+rank 84 total number 83886080, offset 5505024
+rank 41 total number 83886080, offset 2686976
+rank 1063 total number 83886080, offset 69664768
+rank 15 total number 83886080, offset 983040
+rank 125 total number 83886080, offset 8192000
+rank 116 total number 83886080, offset 7602176
+rank 198 total number 83886080, offset 12976128
+rank 1137 total number 83886080, offset 74514432
+rank 44 total number 83886080, offset 2883584
+rank 683 total number 83886080, offset 44761088
+rank 1070 total number 83886080, offset 70123520
+rank 672 total number 83886080, offset 44040192
+rank 120 total number 83886080, offset 7864320
+rank 197 total number 83886080, offset 12910592
+rank 136 total number 83886080, offset 8912896
+rank 138 total number 83886080, offset 9043968
+rank 362 total number 83886080, offset 23724032
+rank 609 total number 83886080, offset 39911424
+rank 1095 total number 83886080, offset 71761920
+rank 1023 total number 83886080, offset 67043328
+rank 221 total number 83886080, offset 14483456
+rank 1104 total number 83886080, offset 72351744
+rank 956 total number 83886080, offset 62652416
+rank 1182 total number 83886080, offset 77463552
+rank 52 total number 83886080, offset 3407872
+rank 1115 total number 83886080, offset 73072640
+rank 930 total number 83886080, offset 60948480
+rank 57 total number 83886080, offset 3735552
+rank 238 total number 83886080, offset 15597568
+rank 31 total number 83886080, offset 2031616
+rank 227 total number 83886080, offset 14876672
+rank 207 total number 83886080, offset 13565952
+rank 1106 total number 83886080, offset 72482816
+rank 151 total number 83886080, offset 9895936
+rank 865 total number 83886080, offset 56688640
+rank 1190 total number 83886080, offset 77987840
+rank 1171 total number 83886080, offset 76742656
+rank 53 total number 83886080, offset 3473408
+rank 1229 total number 83886080, offset 80543744
+rank 1068 total number 83886080, offset 69992448
+rank 403 total number 83886080, offset 26411008
+rank 736 total number 83886080, offset 48234496
+rank 1214 total number 83886080, offset 79560704
+rank 1193 total number 83886080, offset 78184448
+rank 314 total number 83886080, offset 20578304
+rank 140 total number 83886080, offset 9175040
+rank 312 total number 83886080, offset 20447232
+rank 206 total number 83886080, offset 13500416
+rank 48 total number 83886080, offset 3145728
+rank 1039 total number 83886080, offset 68091904
+rank 995 total number 83886080, offset 65208320
+rank 1197 total number 83886080, offset 78446592
+rank 69 total number 83886080, offset 4521984
+rank 506 total number 83886080, offset 33161216
+rank 1099 total number 83886080, offset 72024064
+rank 199 total number 83886080, offset 13041664
+rank 1065 total number 83886080, offset 69795840
+rank 481 total number 83886080, offset 31522816
+rank 914 total number 83886080, offset 59899904
+rank 1094 total number 83886080, offset 71696384
+rank 824 total number 83886080, offset 54001664
+rank 1108 total number 83886080, offset 72613888
+rank 480 total number 83886080, offset 31457280
+rank 87 total number 83886080, offset 5701632
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 166 total number 83886080, offset 10878976
+rank 100 total number 83886080, offset 6553600
+rank 249 total number 83886080, offset 16318464
+rank 1222 total number 83886080, offset 80084992
+rank 1132 total number 83886080, offset 74186752
+rank 1061 total number 83886080, offset 69533696
+rank 659 total number 83886080, offset 43188224
+rank 1122 total number 83886080, offset 73531392
+rank 353 total number 83886080, offset 23134208
+rank 1133 total number 83886080, offset 74252288
+rank 5 total number 83886080, offset 327680
+rank 91 total number 83886080, offset 5963776
+rank 1227 total number 83886080, offset 80412672
+rank 170 total number 83886080, offset 11141120
+rank 658 total number 83886080, offset 43122688
+rank 1124 total number 83886080, offset 73662464
+rank 121 total number 83886080, offset 7929856
+rank 103 total number 83886080, offset 6750208
+rank 1055 total number 83886080, offset 69140480
+rank 1085 total number 83886080, offset 71106560
+rank 1076 total number 83886080, offset 70516736
+rank 118 total number 83886080, offset 7733248
+rank 17 total number 83886080, offset 1114112
+rank 1084 total number 83886080, offset 71041024
+rank 1003 total number 83886080, offset 65732608
+rank 190 total number 83886080, offset 12451840
+rank 1152 total number 83886080, offset 75497472
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1157 total number 83886080, offset 75825152
+rank 1176 total number 83886080, offset 77070336
+rank 618 total number 83886080, offset 40501248
+rank 1002 total number 83886080, offset 65667072
+rank 1249 total number 83886080, offset 81854464
+rank 215 total number 83886080, offset 14090240
+rank 1183 total number 83886080, offset 77529088
+rank 61 total number 83886080, offset 3997696
+rank 1184 total number 83886080, offset 77594624
+rank 1036 total number 83886080, offset 67895296
+rank 1102 total number 83886080, offset 72220672
+rank 1092 total number 83886080, offset 71565312
+rank 75 total number 83886080, offset 4915200
+rank 1170 total number 83886080, offset 76677120
+rank 1177 total number 83886080, offset 77135872
+rank 78 total number 83886080, offset 5111808
+rank 191 total number 83886080, offset 12517376
+rank 1107 total number 83886080, offset 72548352
+rank 1087 total number 83886080, offset 71237632
+rank 1186 total number 83886080, offset 77725696
+rank 1111 total number 83886080, offset 72810496
+rank 945 total number 83886080, offset 61931520
+rank 1030 total number 83886080, offset 67502080
+rank 131 total number 83886080, offset 8585216
+rank 133 total number 83886080, offset 8716288
+rank 109 total number 83886080, offset 7143424
+rank 1148 total number 83886080, offset 75235328
+rank 1043 total number 83886080, offset 68354048
+rank 96 total number 83886080, offset 6291456
+rank 174 total number 83886080, offset 11403264
+rank 153 total number 83886080, offset 10027008
+rank 874 total number 83886080, offset 57278464
+rank 60 total number 83886080, offset 3932160
+rank 152 total number 83886080, offset 9961472
+rank 46 total number 83886080, offset 3014656
+rank 1248 total number 83886080, offset 81788928
+rank 1119 total number 83886080, offset 73334784
+rank 1155 total number 83886080, offset 75694080
+rank 157 total number 83886080, offset 10289152
+rank 1029 total number 83886080, offset 67436544
+rank 746 total number 83886080, offset 48889856
+rank 219 total number 83886080, offset 14352384
+rank 1239 total number 83886080, offset 81199104
+rank 1145 total number 83886080, offset 75038720
+rank 1121 total number 83886080, offset 73465856
+rank 994 total number 83886080, offset 65142784
+rank 134 total number 83886080, offset 8781824
+rank 1064 total number 83886080, offset 69730304
+rank 148 total number 83886080, offset 9699328
+rank 1120 total number 83886080, offset 73400320
+rank 1047 total number 83886080, offset 68616192
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 86 total number 83886080, offset 5636096
+rank 20 total number 83886080, offset 1310720
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1062 total number 83886080, offset 69599232
+rank 172 total number 83886080, offset 11272192
+rank 181 total number 83886080, offset 11862016
+rank 19 total number 83886080, offset 1245184
+rank 1042 total number 83886080, offset 68288512
+rank 433 total number 83886080, offset 28377088
+rank 13 total number 83886080, offset 851968
+rank 1205 total number 83886080, offset 78970880
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 490 total number 83886080, offset 32112640
+rank 1058 total number 83886080, offset 69337088
+rank 1044 total number 83886080, offset 68419584
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 23 total number 83886080, offset 1507328
+rank 1215 total number 83886080, offset 79626240
+rank 1245 total number 83886080, offset 81592320
+rank 1236 total number 83886080, offset 81002496
+rank 1158 total number 83886080, offset 75890688
+rank 737 total number 83886080, offset 48300032
+rank 124 total number 83886080, offset 8126464
+rank 203 total number 83886080, offset 13303808
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1232 total number 83886080, offset 80740352
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1077 total number 83886080, offset 70582272
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1258 total number 83886080, offset 82444288
+rank 1242 total number 83886080, offset 81395712
+rank 129 total number 83886080, offset 8454144
+rank 1175 total number 83886080, offset 77004800
+rank 63 total number 83886080, offset 4128768
+rank 141 total number 83886080, offset 9240576
+rank 1264 total number 83886080, offset 82837504
+rank 1116 total number 83886080, offset 73138176
+rank 1262 total number 83886080, offset 82706432
+rank 1172 total number 83886080, offset 76808192
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1250 total number 83886080, offset 81920000
+rank 1257 total number 83886080, offset 82378752
+rank 1198 total number 83886080, offset 78512128
+rank 1231 total number 83886080, offset 80674816
+rank 147 total number 83886080, offset 9633792
+rank 1167 total number 83886080, offset 76480512
+rank 226 total number 83886080, offset 14811136
+rank 231 total number 83886080, offset 15138816
+rank 1265 total number 83886080, offset 82903040
+rank 1110 total number 83886080, offset 72744960
+rank 211 total number 83886080, offset 13828096
+rank 1093 total number 83886080, offset 71630848
+rank 189 total number 83886080, offset 12386304
+rank 188 total number 83886080, offset 12320768
+rank 1203 total number 83886080, offset 78839808
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 254 total number 83886080, offset 16646144
+rank 233 total number 83886080, offset 15269888
+rank 954 total number 83886080, offset 62521344
+rank 1100 total number 83886080, offset 72089600
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 79 total number 83886080, offset 5177344
+rank 1075 total number 83886080, offset 70451200
+rank 1037 total number 83886080, offset 67960832
+rank 1109 total number 83886080, offset 72679424
+rank 826 total number 83886080, offset 54132736
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 39 total number 83886080, offset 2555904
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1 total number 83886080, offset 65536
+rank 1234 total number 83886080, offset 80871424
+rank 54 total number 83886080, offset 3538944
+rank 24 total number 83886080, offset 1572864
+rank 228 total number 83886080, offset 14942208
+Collective write: OFF
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 246 total number 83886080, offset 16121856
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1142 total number 83886080, offset 74842112
+rank 252 total number 83886080, offset 16515072
+rank 101 total number 83886080, offset 6619136
+rank 179 total number 83886080, offset 11730944
+rank 242 total number 83886080, offset 15859712
+rank 993 total number 83886080, offset 65077248
+rank 253 total number 83886080, offset 16580608
+rank 1125 total number 83886080, offset 73728000
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1050 total number 83886080, offset 68812800
+rank 18 total number 83886080, offset 1179648
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 175 total number 83886080, offset 11468800
+rank 1165 total number 83886080, offset 76349440
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 38 total number 83886080, offset 2490368
+rank 97 total number 83886080, offset 6356992
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1243 total number 83886080, offset 81461248
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 112 total number 83886080, offset 7340032
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 117 total number 83886080, offset 7667712
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 218 total number 83886080, offset 14286848
+rank 202 total number 83886080, offset 13238272
+rank 209 total number 83886080, offset 13697024
+rank 1255 total number 83886080, offset 82247680
+rank 143 total number 83886080, offset 9371648
+rank 1181 total number 83886080, offset 77398016
+rank 864 total number 83886080, offset 56623104
+rank 1196 total number 83886080, offset 78381056
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 212 total number 83886080, offset 13893632
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1090 total number 83886080, offset 71434240
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1278 total number 83886080, offset 83755008
+rank 1071 total number 83886080, offset 70189056
+rank 67 total number 83886080, offset 4390912
+rank 127 total number 83886080, offset 8323072
+rank 1026 total number 83886080, offset 67239936
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1025 total number 83886080, offset 67174400
+rank 1270 total number 83886080, offset 83230720
+rank 51 total number 83886080, offset 3342336
+rank 213 total number 83886080, offset 13959168
+rank 1149 total number 83886080, offset 75300864
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 323 total number 83886080, offset 21168128
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1273 total number 83886080, offset 83427328
+rank 1034 total number 83886080, offset 67764224
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1199 total number 83886080, offset 78577664
+rank 1235 total number 83886080, offset 80936960
+rank 237 total number 83886080, offset 15532032
+rank 1189 total number 83886080, offset 77922304
+rank 106 total number 83886080, offset 6946816
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1201 total number 83886080, offset 78708736
+rank 114 total number 83886080, offset 7471104
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1144 total number 83886080, offset 74973184
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1212 total number 83886080, offset 79429632
+rank 1141 total number 83886080, offset 74776576
+rank 579 total number 83886080, offset 37945344
+rank 2 total number 83886080, offset 131072
+rank 1153 total number 83886080, offset 75563008
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 245 total number 83886080, offset 16056320
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1130 total number 83886080, offset 74055680
+rank 1138 total number 83886080, offset 74579968
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1135 total number 83886080, offset 74383360
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1078 total number 83886080, offset 70647808
+rank 1057 total number 83886080, offset 69271552
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 352 total number 83886080, offset 23068672
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1237 total number 83886080, offset 81068032
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1098 total number 83886080, offset 71958528
+rank 122 total number 83886080, offset 7995392
+rank 49 total number 83886080, offset 3211264
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1103 total number 83886080, offset 72286208
+rank 1261 total number 83886080, offset 82640896
+rank 224 total number 83886080, offset 14680064
+rank 76 total number 83886080, offset 4980736
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1252 total number 83886080, offset 82051072
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 130 total number 83886080, offset 8519680
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1151 total number 83886080, offset 75431936
+rank 1187 total number 83886080, offset 77791232
+rank 47 total number 83886080, offset 3080192
+rank 1266 total number 83886080, offset 82968576
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1105 total number 83886080, offset 72417280
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1091 total number 83886080, offset 71499776
+rank 1173 total number 83886080, offset 76873728
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 163 total number 83886080, offset 10682368
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1194 total number 83886080, offset 78249984
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1279 total number 83886080, offset 83820544
+rank 835 total number 83886080, offset 54722560
+rank 1277 total number 83886080, offset 83689472
+rank 1269 total number 83886080, offset 83165184
+rank 1226 total number 83886080, offset 80347136
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 81 total number 83886080, offset 5308416
+rank 1154 total number 83886080, offset 75628544
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1059 total number 83886080, offset 69402624
+rank 1202 total number 83886080, offset 78774272
+rank 1233 total number 83886080, offset 80805888
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 90 total number 83886080, offset 5898240
+rank 1218 total number 83886080, offset 79822848
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 255 total number 83886080, offset 16711680
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 177 total number 83886080, offset 11599872
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 992 total number 83886080, offset 65011712
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 58 total number 83886080, offset 3801088
+rank 1082 total number 83886080, offset 70909952
+rank 1169 total number 83886080, offset 76611584
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1263 total number 83886080, offset 82771968
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1276 total number 83886080, offset 83623936
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 50 total number 83886080, offset 3276800
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 111 total number 83886080, offset 7274496
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 66 total number 83886080, offset 4325376
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 145 total number 83886080, offset 9502720
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1253 total number 83886080, offset 82116608
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 154 total number 83886080, offset 10092544
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 239 total number 83886080, offset 15663104
+rank 35 total number 83886080, offset 2293760
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 149 total number 83886080, offset 9764864
+rank 1146 total number 83886080, offset 75104256
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 161 total number 83886080, offset 10551296
+rank 194 total number 83886080, offset 12713984
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 33 total number 83886080, offset 2162688
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 250 total number 83886080, offset 16384000
+rank 178 total number 83886080, offset 11665408
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1072 total number 83886080, offset 70254592
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1178 total number 83886080, offset 77201408
+rank 42 total number 83886080, offset 2752512
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1185 total number 83886080, offset 77660160
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1114 total number 83886080, offset 73007104
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 229 total number 83886080, offset 15007744
+rank 1066 total number 83886080, offset 69861376
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1074 total number 83886080, offset 70385664
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1073 total number 83886080, offset 70320128
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+rank 1274 total number 83886080, offset 83492864
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+TOTAL_PARTICLES = 83886080, NUM_PARTICLES = 65536 
+Opened HDF5 file... 
+Writing Timestep_0 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_1 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_2 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_3 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_4 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_5 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_6 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_7 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_8 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_9 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_10 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_11 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_12 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_13 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_14 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_15 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_16 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_17 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_18 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_19 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_20 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_21 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_22 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_23 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_24 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_25 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_26 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_27 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_28 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_29 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_30 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_31 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_32 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_33 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_34 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_35 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_36 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_37 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_38 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_39 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_40 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_41 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_42 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_43 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_44 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_45 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_46 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_47 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_48 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_49 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_50 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_51 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_52 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_53 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_54 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_55 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_56 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_57 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_58 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_59 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_60 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_61 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_62 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_63 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_64 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_65 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_66 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_67 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_68 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_69 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_70 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_71 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_72 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_73 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_74 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_75 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_76 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_77 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_78 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_79 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_80 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_81 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_82 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_83 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_84 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_85 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_86 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_87 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_88 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_89 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_90 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_91 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_92 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_93 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_94 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_95 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_96 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_97 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_98 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_99 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_100 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_101 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_102 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_103 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_104 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_105 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_106 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_107 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_108 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_109 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_110 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_111 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_112 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_113 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_114 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_115 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_116 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_117 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_118 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_119 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_120 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_121 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_122 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_123 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_124 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_125 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_126 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+Computing...
+Writing Timestep_127 ... 
+    data_write_contig_contig_MD_array: Finished writing time step 
+hdf5_create time 7.070233 s
+write time 42.719492 s
+flush and close time 0.997972 s
+
+=================== Performance Results ==================
+Total number of ranks: 1280
+Total emulated compute time: 0.000 s
+Total write size: 320.000 GB
+Raw write time: 42.719 s
+Metadata time: 0.100 s
+H5Fcreate() time: 7.070 s
+H5Fflush() time: 0.896 s
+H5Fclose() time: 0.100 s
+Observed completion time: 50.808 s
+SYNC Raw write rate: 7.490 GB/s 
+SYNC Observed write rate: 6.298 GB/s
+===========================================================
